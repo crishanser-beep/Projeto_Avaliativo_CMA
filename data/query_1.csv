@@ -1,0 +1,21 @@
+"DEPARTMENT_ID","DEPARTMENT_NAME","JOB_ID","JOB_TITLE","TOTAL_FUNCIONARIOS","SALARIO_MEDIO","MENOR_SALARIO","MAIOR_SALARIO"
+110,"Accounting","AC_MGR","Accounting Manager",1,12008,12008,12008
+110,"Accounting","AC_ACCOUNT","Public Accountant",1,8300,8300,8300
+10,"Administration","AD_ASST","Administration Assistant",1,4400,4400,4400
+90,"Executive","AD_VP","Administration Vice President",2,17000,17000,17000
+90,"Executive","AD_PRES","President",1,24000,24000,24000
+100,"Finance","FI_ACCOUNT","Accountant",5,7920,6900,9000
+100,"Finance","FI_MGR","Finance Manager",1,12008,12008,12008
+40,"Human Resources","HR_REP","Human Resources Representative",1,6500,6500,6500
+60,"IT","IT_PROG","Programmer",5,5760,4200,9000
+20,"Marketing","MK_MAN","Marketing Manager",1,13000,13000,13000
+20,"Marketing","MK_REP","Marketing Representative",1,6000,6000,6000
+70,"Public Relations","PR_REP","Public Relations Representative",1,10000,10000,10000
+30,"Purchasing","PU_CLERK","Purchasing Clerk",5,2780,2500,3100
+30,"Purchasing","PU_MAN","Purchasing Manager",1,11000,11000,11000
+80,"Sales","SA_MAN","Sales Manager",5,12200,10500,14000
+80,"Sales","SA_REP","Sales Representative",29,8396.55,6100,11500
+50,"Shipping","SH_CLERK","Shipping Clerk",20,3215,2500,4200
+50,"Shipping","ST_CLERK","Stock Clerk",20,2785,2100,3600
+50,"Shipping","ST_MAN","Stock Manager",5,7280,5800,8200
+,,"SA_REP","Sales Representative",1,7000,7000,7000

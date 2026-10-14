@@ -40,3 +40,26 @@ df_query_2 = pd.read_csv("query_02.csv")
 ## Análise exploratória
 
 A próxima etapa é explorar os dados no notebook, calculando estatísticas básicas — como média, mediana, mínimo e máximo — e criando visualizações para facilitar a interpretação dos resultados.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+
+## Projeto: Integração e Análise de Dados de RH (Oracle SQL & Python)
+Este notebook apresenta o fluxo completo de carregamento, exploração e visualização de dados do módulo de Recursos Humanos (HR), integrando uma base de dados Oracle com técnicas de análise em Python.
+
+## Objetivos do Projeto
+Conectar com segurança a um banco de dados relacional Oracle SQL.
+Executar consultas e carregar os dados diretamente no ambiente local.
+Realizar uma análise exploratória de dados (EDA) para entender distribuições, médias salariais e tratar possíveis valores nulos.
+Produzir visualizações gráficas de alta qualidade para suporte a tomada de decisão.
+
+##  Tecnologias e Bibliotecas Utilizadas
+Banco de Dados: Oracle SQL via biblioteca oracledb.
+Manipulação de Dados: pandas.
+Visualização Gráfica: matplotlib e seaborn.
+
+## Segurança: getpass para ocultar senhas de acesso.
+# Principais Etapas Desenvolvidas
+Instalação e Conexão: Instalação do driver oracledb e teste de comunicação com a base de dados.
+Importação e Inspeção: Leitura dos arquivos de consulta SQL (query_1.csv) para validação de tipos de dados, contagem de registros e checagem de nulos.
+Cálculo Estatístico: Análise das médias, valores máximos e mínimos de remunerações.
+Gráfico de Resultados: Plotagem de um gráfico de barras horizontal ilustrando a Média Salarial por Departamento.

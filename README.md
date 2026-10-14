@@ -66,3 +66,23 @@ Gráfico de Resultados: Plotagem de um gráfico de barras horizontal ilustrando 
 
 ![Média Salarial](images/media_salarial_departamento.png)
 ![Correlação](images/correlacao_funcionarios_salario.png)
+![Outliers Salário](images/outliers_salario_medio.png)
+
+_________________________________________________________________________________________________________________________________________________________________________________________
+
+## Insights Baseados em Dados
+A Disparidade Salarial do Setor Executivo (Outlier)
+
+O que o dado diz: O setor Executive possui uma média salarial de **R$ 20.500,00**, figurando como um outlier óbvio no boxplot. * **Insight:** Enquanto a maior parte das funções e departamentos se encontra na faixa entre R$$ 20.500,00**, figurando como um outlier óbvio no boxplot. * **Insight:** Enquanto a maior parte das funções e departamentos se encontra na faixa entre R$ 5.000,00 e R$ 12.000,00, a remuneração da alta liderança está altamente concentrada no topo extremo. Isso é comum em estruturas corporativas, mas requer atenção em planos de cargos e salários para evitar insatisfação nos níveis operacionais.
+A Relação entre Tamanho da Equipe e Salário (Correlação Negativa)
+
+O que o dado diz: Temos uma correlação negativa moderada (-0.3583) entre o TOTAL_FUNCIONARIOS e o SALARIO_MEDIO.
+Insight: Departamentos ou cargos que demandam um volume muito grande de colaboradores (como Shipping ou operacional) tendem a apresentar médias salariais menores. Já cargos altamente especializados (como Executive ou funções técnicas de nicho) possuem pouquíssimos colaboradores e remunerações bem mais elevadas. Isso aponta para uma estrutura de custos onde a folha de pagamento é pulverizada no operacional e concentrada no estratégico.
+Eficiência no Setor de TI vs. Setores Administrativos
+
+O que o dado diz: O setor de IT tem uma média de R$ 5.760,00, aproximando-se das médias mais baixas como *Shipping* (R$$ 5.760,00, aproximando-se das médias mais baixas como *Shipping* (R$ 4.426,67) e Administration (R$ 4.400,00).
+Insight: Para um setor que geralmente exige alto nível técnico, a média salarial de TI nesta base de dados está surpreendentemente próxima à do suporte administrativo. Pode valer a pena investigar se as posições de TI mapeadas nesta consulta específica são predominantemente de suporte básico (help desk) ou se há uma defasagem de mercado na remuneração dos desenvolvedores/analistas.
+Departamentos de Alto Valor Agregado com Equipes Enxutas
+
+O que o dado diz: Setores como Sales (R$ 10.298,27) e *Accounting* (R$$ 10.298,27) e *Accounting* (R$ 10.154,00) mantêm salários médios altos.
+Insight: Finanças, Vendas e Contabilidade apresentam uma valorização robusta, possivelmente ligada à responsabilidade direta sobre receitas e conformidade fiscal. Manter equipes qualificadas e enxutas nesses setores garante controle de riscos financeiros e fomento de novas receitas.

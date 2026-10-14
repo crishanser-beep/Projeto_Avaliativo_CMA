@@ -63,3 +63,6 @@ Instalação e Conexão: Instalação do driver oracledb e teste de comunicaçã
 Importação e Inspeção: Leitura dos arquivos de consulta SQL (query_1.csv) para validação de tipos de dados, contagem de registros e checagem de nulos.
 Cálculo Estatístico: Análise das médias, valores máximos e mínimos de remunerações.
 Gráfico de Resultados: Plotagem de um gráfico de barras horizontal ilustrando a Média Salarial por Departamento.
+
+![Média Salarial](images/media_salarial_departamento.png)
+![Correlação](images/correlacao_funcionarios_salario.png)
